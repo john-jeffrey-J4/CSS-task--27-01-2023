@@ -1,0 +1,136 @@
+
+.base-box{
+    width:100%;
+    height:97vh;
+    border-radius: 15px;
+    background-color: violet;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    min-width: 1400px;
+    max-width:1800px;
+}
+.left-box{
+    background-color: white;
+    border:5px solid violet;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    align-items:center;
+
+}
+.right-box{
+
+   padding-left:50px ;
+   color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.first-input-box{
+    background-color: white;
+    height:30px;
+    display:grid;
+    grid-template-columns: 1% 1% 1px 1fr 2% 2%;
+    column-gap: 10px;
+    align-items: center;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius:10px;
+    width:700px;
+    margin:30px;
+
+}
+.first-checkbox-content{
+    background-color: white;
+    height:50px;
+    display:grid;
+    grid-template-columns:10px 1fr 100px 15px;
+    align-items: center;
+    width:600px;
+    column-gap: 25px;
+    border-radius:10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin-left: 50px;
+    margin-bottom:10px;
+
+}
+.para{
+    margin:0;
+    width:100%;
+    color:black;
+    padding:0;
+}
+.color-round{
+    width:12px;
+    height:12px;
+    border-radius:10px;
+}
+.checkboxx{
+    background-color: violet;
+
+}
+
+.red{
+    background-color: red;  
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.text-input{
+    border:none;
+    
+}
+
+::placeholder{
+    color:grey;
+    opacity:0.8;
+}
+.fa-circle-play,.fa-folder-closed,.fa-circle-check{
+
+    color: violet;
+}
+.fa-circle{
+    color:grey;
+}
+.image{
+    width:50%;
+    border-radius:50%;
+    padding-top:15px;
+    padding-left:15px;
+
+}
+.first-row{
+  display:grid;
+  grid-template-columns: 25%  1fr;
+  column-gap: 10px;
+  padding-left: 15px;
+  
+}
+.para-left{
+   top:10px;
+   padding-right:10px;
+}
+.para-color{
+    color:violet;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.line{
+    width:60%;
+    color:violet;
+    border: 2px solid violet;
+}
+.grid-list{
+    display:grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    padding-left:15%;
+}
+.grid-options{
+    display:grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    padding-left:10%;
+}
